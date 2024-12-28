@@ -103,7 +103,6 @@ networks:
 ### Technologies Used
 
 - Spring Boot
-- H2 Database
 
 ## Backend Project Structure
 
