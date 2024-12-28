@@ -192,9 +192,19 @@ Here are step-by-step instructions to set up and run your project locally.
    - Run the following commands:
      bash
      mvn clean install
+3. *path of docker files:*
+   - After opening the projet in your machine it necessary to change the docker file path in both backend and frontend in docker-compose.yml file depending on where did you put the projet and the docker fils 
      
-
-3. *Run Backend:*
+   -   frontend:
+    build:
+      context: C:\\Users\\ACCENT W5000\\Desktop\\fin-module\\frontend
+   
+   -  backend:
+    build:
+      context: C:\\Users\\ACCENT W5000\\Desktop\\fin-module
+      dockerfile: Dockerfile
+   
+5. *Run Backend:*
    - Run the Spring Boot application. The database and entities will be created automatically.
    - Verify that the backend is running by visiting [test in Postman: http://localhost:8082/api/code/generate]
       ((http://localhost:3000/)) in your browser.
