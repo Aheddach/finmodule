@@ -24,10 +24,10 @@ YAML2Code est une application open-source innovante permettant la génération a
 
 L'architecture de YAML2Code repose sur une approche modulaire :
 
-Frontend : React.js pour une interface utilisateur interactive.
-Backend : Spring Boot pour le traitement des fichiers YAML et la génération du code.
-Base de données : H2 (en mémoire) pour le stockage temporaire des configurations.
-API RESTful : Communication entre le frontend et le backend.
+- Frontend : React.js pour une interface utilisateur interactive.
+- Backend : Spring Boot pour le traitement des fichiers YAML et la génération du code.
+- Base de données : H2 (en mémoire) pour le stockage temporaire des configurations.
+- API RESTful : Communication entre le frontend et le backend.
 
 ---
 
