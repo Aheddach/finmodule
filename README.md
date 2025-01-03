@@ -19,11 +19,9 @@ YAML2Code est une application open-source innovante permettant la génération a
 
 ---
 
-## 🛠️ **Architecture Logicielle**
-
-![WhatsApp Image 2025-01-01 à 02 12 00_3f57f073](https://github.com/user-attachments/assets/fcda7bd4-cd2f-4a62-a443-d998fe00e2e4)
-
 ### **Software architecture :**
+![image](https://github.com/user-attachments/assets/804e7856-446b-4d0e-bd3a-585aef220859)
+
 The architecture of YAML2Code is based on a modular approach:
 
 - Frontend: React.js for an interactive user interface.
